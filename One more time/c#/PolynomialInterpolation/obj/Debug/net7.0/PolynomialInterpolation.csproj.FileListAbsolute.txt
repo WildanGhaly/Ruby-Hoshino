@@ -1,0 +1,15 @@
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.csproj.AssemblyReference.cache
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.AssemblyInfoInputs.cache
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.AssemblyInfo.cs
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.csproj.CoreCompileInputs.cache
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\bin\Debug\net7.0\PolynomialInterpolation.exe
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\bin\Debug\net7.0\PolynomialInterpolation.deps.json
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\bin\Debug\net7.0\PolynomialInterpolation.runtimeconfig.json
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\bin\Debug\net7.0\PolynomialInterpolation.dll
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\bin\Debug\net7.0\PolynomialInterpolation.pdb
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.dll
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\refint\PolynomialInterpolation.dll
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.pdb
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\PolynomialInterpolation.genruntimeconfig.cache
+C:\Users\wilda\OneDrive - Institut Teknologi Bandung\Documents\KULIAH WILLY\Asisten\Sister\Ruby-Hoshino\One more time\c#\PolynomialInterpolation\obj\Debug\net7.0\ref\PolynomialInterpolation.dll
