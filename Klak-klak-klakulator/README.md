@@ -14,6 +14,14 @@ This Zig program provides a mathematical expression evaluator that accepts mathe
 
 This Zig program offers an interactive command-line interface (CLI) that allows users to input mathematical expressions as strings and get the computed result. The computations are performed using bitwise operations for addition, subtraction, multiplication, division, and exponentiation.
 
+## Development Environment
+
+The program was developed using the Zig programming language, version 0.11.0, on the Ubuntu 20.04 operating system.
+
+Developers interested in exploring the Zig programming language and its capabilities can refer to the [Zig documentation](https://ziglang.org/documentation/0.11.0/). The combination of Zig 0.11.0 and Ubuntu 20.04 lays the foundation for a robust and efficient development experience.
+
+Please note that using the recommended Zig version and operating system can help ensure optimal performance and compatibility when working with this program.
+
 ## Usage
 
 1. **Build the Program:** Ensure you have the Zig compiler installed. Compile the program using the following command:
