@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="DaGUI">
+    <file>high_nature.jpg</file>
+    <file>IMG_BORDER.png</file>
+    <file>daBack.jpg</file>
+  </qresource>
+</RCC>

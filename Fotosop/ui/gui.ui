@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Fotosop_13521015</class>
+ <widget class="QWidget" name="Fotosop_13521015">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1080</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1080</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="IMAGE_BACKGROUND">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1080</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1080</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/DaGUI/daBack.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="IMAGE_INPUT">
+   <property name="geometry">
+    <rect>
+     <x>85</x>
+     <y>123</y>
+     <width>369</width>
+     <height>355</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="IMAGE_OUTPUT">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>123</y>
+     <width>369</width>
+     <height>355</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TEXT_INPUT">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>0</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 40pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>INPUT</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TEXT_OUTPUT">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>0</y>
+     <width>400</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 40pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>OUTPUT</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="IMAGE_BORDER_INPUT">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>100</y>
+     <width>400</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/DaGUI/IMG_BORDER.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="IMAGE_BORDER_INPUT_2">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>100</y>
+     <width>400</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/DaGUI/IMG_BORDER.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BUTTON_CAMERA">
+   <property name="geometry">
+    <rect>
+     <x>305</x>
+     <y>510</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;
+background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Camera</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BUTTON_INPUT">
+   <property name="geometry">
+    <rect>
+     <x>135</x>
+     <y>510</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;
+background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Input File</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CHECK_GRAYSCALE">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>555</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>  GrayScale</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TEXT_CONTRAST">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>560</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Contrast (%)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TEXT_SATURATION">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>660</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Saturation (%)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>565</y>
+     <width>40</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>665</y>
+     <width>40</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="IMAGE_INPUT_CAMERA">
+   <property name="geometry">
+    <rect>
+     <x>85</x>
+     <y>123</y>
+     <width>369</width>
+     <height>355</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="IMAGE_OUTPUT_CAMERA">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>123</y>
+     <width>369</width>
+     <height>355</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>369</width>
+     <height>355</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>665</y>
+     <width>40</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TEXT_KERNEL_SIZE">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>660</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Kernel Size</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CHECK_BLUR">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>605</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>  Gaussian Blur</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>615</y>
+     <width>40</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TEXT_SIGMA">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>610</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sigma (%)</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CHECK_EDGE">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>655</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>  Edge Detection</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>615</y>
+     <width>40</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 10pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TEXT_BRIGHTNESS">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>610</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Brightness (%)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BUTTON_RECALCULATE">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>560</y>
+     <width>120</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>120</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>120</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 12pt &quot;Comic Sans MS&quot;;
+background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Recalculate</string>
+   </property>
+  </widget>
+  <zorder>IMAGE_BACKGROUND</zorder>
+  <zorder>IMAGE_OUTPUT_CAMERA</zorder>
+  <zorder>IMAGE_INPUT_CAMERA</zorder>
+  <zorder>IMAGE_INPUT</zorder>
+  <zorder>IMAGE_OUTPUT</zorder>
+  <zorder>TEXT_INPUT</zorder>
+  <zorder>TEXT_OUTPUT</zorder>
+  <zorder>IMAGE_BORDER_INPUT</zorder>
+  <zorder>IMAGE_BORDER_INPUT_2</zorder>
+  <zorder>BUTTON_CAMERA</zorder>
+  <zorder>BUTTON_INPUT</zorder>
+  <zorder>CHECK_GRAYSCALE</zorder>
+  <zorder>TEXT_CONTRAST</zorder>
+  <zorder>TEXT_SATURATION</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>TEXT_KERNEL_SIZE</zorder>
+  <zorder>CHECK_BLUR</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>TEXT_SIGMA</zorder>
+  <zorder>CHECK_EDGE</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>TEXT_BRIGHTNESS</zorder>
+  <zorder>BUTTON_RECALCULATE</zorder>
+ </widget>
+ <resources>
+  <include location="../img/GUI.qrc"/>
+ </resources>
+ <connections/>
+</ui>
