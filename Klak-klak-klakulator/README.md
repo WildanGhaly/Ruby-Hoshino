@@ -5,6 +5,7 @@ This Zig program provides a mathematical expression evaluator that accepts mathe
 ## Table of Contents
 
 - [Overview](#overview)
+- [Development Environment](#development-environment)
 - [Usage](#usage)
 - [Supported Operations](#supported-operations)
 - [How It Works](#how-it-works)
