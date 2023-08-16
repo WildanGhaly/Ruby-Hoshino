@@ -734,16 +734,16 @@ background-color: rgb(0, 255, 0);</string>
   <zorder>TEXT_CONTRAST</zorder>
   <zorder>TEXT_SATURATION</zorder>
   <zorder>lineEdit</zorder>
-  <zorder>lineEdit_2</zorder>
   <zorder>lineEdit_3</zorder>
   <zorder>TEXT_KERNEL_SIZE</zorder>
   <zorder>CHECK_BLUR</zorder>
   <zorder>lineEdit_4</zorder>
   <zorder>TEXT_SIGMA</zorder>
   <zorder>CHECK_EDGE</zorder>
-  <zorder>lineEdit_5</zorder>
   <zorder>TEXT_BRIGHTNESS</zorder>
   <zorder>BUTTON_RECALCULATE</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit_5</zorder>
  </widget>
  <resources>
   <include location="../img/GUI.qrc"/>
