@@ -2,15 +2,10 @@ import sys
 import cv2
 import os
 import shutil
-import time
-import threading
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
-from PyQt5.QtCore import Qt, QTimer
+from PyQt5.QtCore import QTimer
 from PyQt5.QtGui import QImage, QPixmap
 from GUI import Ui_Fotosop_13521015 as Ui_Form
-import multiprocessing
-import colorsys
-from PIL import Image
 import numpy as np
 import gaussianBlur as gb
 import edgeDetection as ed
@@ -46,6 +41,12 @@ class MyWindow(QMainWindow, Ui_Form):
         # digunakan np.clip untuk menggantikan max(min(x, 255), 0) agar lebih cepat
         frame1 = np.clip(contrast * ((copyFrame.astype(int) - 128)) + 128, 0, 255).astype(np.uint8)
         return frame1
+    
+    def camera_brightness(self, frame, brightness):
+        # digunakan persen brightness
+        copyFrame = frame.copy()
+        frame1 = np.clip(brightness * copyFrame.astype(int), 0, 255).astype(np.uint8)
+        return frame1
 
     def camera_saturation(self, frame, saturation_factor):
         copyFrame = frame.copy()
@@ -70,6 +71,7 @@ class MyWindow(QMainWindow, Ui_Form):
             saturationPoint     = int(self.lineEdit_2.text()) if self.lineEdit_2.text().strip() and self.lineEdit_2.text().isdigit() else 0
             kernel_size         = int(self.lineEdit_3.text()) if self.lineEdit_3.text().strip() and self.lineEdit_3.text().isdigit() else 1
             sigma               = int(self.lineEdit_4.text()) if self.lineEdit_4.text().strip() and self.lineEdit_4.text().isdigit() else 0.0001
+            brightness          = int(self.lineEdit_5.text()) if self.lineEdit_5.text().strip() and self.lineEdit_5.text().isdigit() else 100
             if kernel_size == 0:
                 kernel_size = 1
             if sigma == 0:
@@ -86,6 +88,8 @@ class MyWindow(QMainWindow, Ui_Form):
             if (self.CHECK_EDGE.isChecked()):
                 processed_frame = ed.custom_sobel_operator(processed_frame)
                 processed_frame = cv2.cvtColor(processed_frame, cv2.COLOR_GRAY2BGR)
+            if (brightness != 100):  
+                processed_frame = self.camera_brightness(processed_frame, float(brightness)/100)
             
             # Resize the frame to match the dimensions of self.IMAGE_INPUT
             target_size = (self.IMAGE_INPUT_CAMERA.width(), self.IMAGE_INPUT_CAMERA.height())
@@ -117,6 +121,8 @@ class MyWindow(QMainWindow, Ui_Form):
         
     def getImageResult(self, image_path, isGrayScale, contrastPoint, saturationPoint):
         img = cv2.imread(image_path)
+        brightness         = int(self.lineEdit_5.text()) if self.lineEdit_5.text().strip() and self.lineEdit_5.text().isdigit() else 100
+        print(brightness)
         if (contrastPoint != 100):
             img = self.camera_contrast(img, float(contrastPoint)/100.0)
         if (saturationPoint != 100):
@@ -126,10 +132,17 @@ class MyWindow(QMainWindow, Ui_Form):
         if self.CHECK_BLUR.isChecked():
             kernel_size = int(self.lineEdit_3.text()) if self.lineEdit_3.text().strip() and self.lineEdit_3.text().isdigit() else 0
             sigma       = int(self.lineEdit_4.text()) if self.lineEdit_4.text().strip() and self.lineEdit_4.text().isdigit() else 0
-            img         = gb.custom_gaussian_blur(img, kernel_size, sigma)
+            if kernel_size == 0:
+                kernel_size = 1
+            if sigma == 0:
+                sigma = 0.0001
+            img         = gb.custom_gaussian_blur(img, kernel_size, float(sigma)/100)
         if self.CHECK_EDGE.isChecked():
             img = ed.custom_sobel_operator(img)
             img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+        if (brightness != 100):  
+            img = self.camera_brightness(img, float(brightness)/100)    
+        
         cv2.imwrite(self.default_output_result, img)
         
     def showInputThread(self):

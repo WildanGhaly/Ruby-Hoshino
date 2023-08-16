@@ -195,23 +195,23 @@ class Ui_Fotosop_13521015(object):
         self.TEXT_CONTRAST.raise_()
         self.TEXT_SATURATION.raise_()
         self.lineEdit.raise_()
-        self.lineEdit_2.raise_()
         self.lineEdit_3.raise_()
         self.TEXT_KERNEL_SIZE.raise_()
         self.CHECK_BLUR.raise_()
         self.lineEdit_4.raise_()
         self.TEXT_SIGMA.raise_()
         self.CHECK_EDGE.raise_()
-        self.lineEdit_5.raise_()
         self.TEXT_BRIGHTNESS.raise_()
         self.BUTTON_RECALCULATE.raise_()
+        self.lineEdit_2.raise_()
+        self.lineEdit_5.raise_()
 
         self.retranslateUi(Fotosop_13521015)
         QtCore.QMetaObject.connectSlotsByName(Fotosop_13521015)
 
     def retranslateUi(self, Fotosop_13521015):
         _translate = QtCore.QCoreApplication.translate
-        Fotosop_13521015.setWindowTitle(_translate("Fotosop_13521015", "Fotosop_13521015"))
+        Fotosop_13521015.setWindowTitle(_translate("Fotosop_13521015", "Form"))
         self.TEXT_INPUT.setText(_translate("Fotosop_13521015", "INPUT"))
         self.TEXT_OUTPUT.setText(_translate("Fotosop_13521015", "OUTPUT"))
         self.BUTTON_CAMERA.setText(_translate("Fotosop_13521015", "Camera"))
@@ -230,4 +230,3 @@ class Ui_Fotosop_13521015(object):
         self.lineEdit_5.setText(_translate("Fotosop_13521015", "100"))
         self.TEXT_BRIGHTNESS.setText(_translate("Fotosop_13521015", "Brightness (%)"))
         self.BUTTON_RECALCULATE.setText(_translate("Fotosop_13521015", "Recalculate"))
-
