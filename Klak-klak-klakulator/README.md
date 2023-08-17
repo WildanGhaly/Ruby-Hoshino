@@ -28,6 +28,7 @@ Please note that using the recommended Zig version and operating system can help
 1. **Build the Program:** Ensure you have the Zig compiler installed. Compile the program using the following command:
    
    ```bash
+   cd src
    zig build-exe calculator.zig
    ```
 2. **Run the Program:** Execute the compiled program:
